@@ -1,0 +1,392 @@
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+ 
+.row{
+	content: '';
+	display: block;
+	clear: both;
+}
+.layout{
+	float: left;
+}
+
+
+body{
+	margin: 0;
+	padding:0;
+	background-color: #eaf4f6;
+}
+.nav{
+	padding: 15px;
+	background-color: #eaf4f6;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 73px;
+}
+
+.cv{
+	padding-top: 20px;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: 
+
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+    display: block;
+    padding: 25px 20px;
+    color: #56a6e4;
+    font-size: 20px;
+}
+.nav .cv a{
+	color: #56a6e4;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+.profile{
+	padding: 0px 8px;
+	height: 400px;
+	margin-bottom: 5px;
+}
+.name{
+	margin-right: 5px;
+	height: 400px;
+	background-color: #cbe6ea;
+	margin-top: -20px;
+}
+.head1{
+	padding-top: 85px;
+	letter-spacing: 2px;
+	color: #00004b;
+	text-align: center;
+}
+.underline{
+	text-align: center;
+	margin-top: 3px;
+	font-weight: bolder;
+}
+.txt1{
+	padding-top: 5px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.profile .name a{
+	padding: 8px 5px;
+	border: 2px solid black;
+	text-align: center;
+	margin-left: 18px;
+	text-decoration: none;
+	color: #1c6faf;
+	margin-top: 45px;
+}
+.proimg{
+	height: 400px;
+}
+.about{
+	padding: 0px 8px 0px 8px;
+	height: 500px;
+	margin-bottom: 5px; 
+}
+.myabout{
+	height: 515px;
+	background-image: url('images/about4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ 
+.head2{
+	padding-top: 85px;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+.text2{
+	text-align: center;
+	margin-top: 8px;
+	font-size: 18px;
+	color: white;
+}
+.underline2{
+	text-align: center;
+	margin-top: 3px;
+	font-weight: bolder;
+	width: 85px;
+	font-size: 40px;
+	color: black;
+}
+.template{
+	padding: 0px 8px;
+	height: 200px;
+	margin-bottom: 5px; 
+}
+.mytemp{
+	background-color: #cbe6ea;
+	height: 200px;
+	margin-bottom: 5px; 
+}
+.head3{
+	padding-top: 55px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+}
+.quality{
+	height: 460px;
+	padding: 0px 8px;
+	margin-bottom: 10px;
+}
+.education{
+	margin-right: 5px;
+	background-color: #cbe6ea;
+	height: 450px;
+	text-align: center;
+}
+.experience{
+	background-color: #cbe6ea;
+	height: 450px;
+	text-align: center;
+}
+.text3{
+	font-size: 55px;
+    padding-top: 20px;
+    /*position: relative;*/
+    margin-top: 0px;
+}
+.pricing{
+	height: 500px;
+	background-color: #cbe6ea;
+	margin: 0px 8px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.head4{
+	padding-top: 55px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+	margin-top: 0px;
+}
+.price{
+	font-size: 20px;
+}
+.price h1{
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+.pricing .price a{
+	padding: 8px 25px;
+	border: 2px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	margin-top: 55px;
+	font-size: 18px;
+}
+.service{
+	padding: 0px 8px;
+	height: 200px;
+	margin-bottom: 5px; 
+}
+.myserv{
+	background-color: #cbe6ea;
+	height: 200px;
+}
+.head5{
+	padding-top: 55px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+	margin-top: 0px;
+}
+.head6{
+	padding-top: 15px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+	margin-top: 0px;
+}
+.expert{
+	height: 250px;
+	padding: 0px 8px;
+	margin-bottom: 5px;
+}
+.e1, .e2, .e3{
+	height: 220px;
+	margin-right: 5px;
+	background-color: #cbe6ea;
+	margin-top: 0px;
+	text-align: center;
+	padding: 15px;
+}
+.e4{
+	height: 220px;
+	background-color: #cbe6ea;
+	margin-top: 0px;
+	text-align: center;
+	padding: 15px;
+}
+.work{
+	padding: 0px 8px;
+	height: 200px;
+	margin-bottom: 5px; 
+}
+.mywork{
+	background-color: #cbe6ea;
+	height: 200px;
+}
+.gig{
+	height: 350px;
+	padding: 0px 8px;
+	margin-bottom: 5px;
+}
+.g1, .g2, .g3{
+	height: 310px;
+	margin-right: 5px;
+	background-color: #cbe6ea;
+	padding: 20px;
+}
+.g4{
+	height: 310px;
+	background-color: #cbe6ea;
+	padding: 20px;
+}
+.contact{
+	height: 450px;
+	padding: 0px 8px;
+	margin-bottom: 5px;
+}
+.map{
+	margin-right: 5px;
+	height: 450px;
+}
+.myform{
+	background-color:  #cbe6ea;
+	height: 450px;
+	text-align: center;
+}
+.footer{
+	padding: 0px 8px;
+}
+.social{
+	background-color: #cbe6ea;
+	padding: 25px 25px;
+	text-align: center;
+}
+.head9{
+	padding-top: 25px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+	margin-top: 0px;
+}
+input[type=text], input[type=email], textarea{
+	padding: 10px 5px;
+	width: 70%;
+	margin-bottom: 5px;
+}
+input[type=submit]{
+	width: 70%;
+	border: 1px solid blue;
+	padding: 10px 6px;
+	background-color: #cbe6ea;
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 980px) {
+.col-t1{width: 8.33%}
+.col-t2{width: 16.66%}
+.col-t3{width: 25%}
+.col-t4{width: 33.33%}
+.col-t5{width: 41.66%}
+.col-t6{width: 50%}
+.col-t7{width: 58.33%}
+.col-t8{width: 66.66%}
+.col-t9{width: 75%}
+.col-t10{width: 83.33%}
+.col-t11{width: 91.66%}
+.col-t12{width: 100%}
+.menu{
+	display: none;
+}
+.tb1{
+	margin: 360px;
+}
+.layout{
+	float: left;
+	margin-bottom: 5px;
+}
+.pricing{
+	margin-top: 450px;
+    height: 730px;
+	background-color: #cbe6ea;
+}
+	.head4{
+		margin-top: -22px;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 699px) {
+	.col-l6{width: 50%}
+	.col-l12{width: 100%}
+	hr{display: none;}
+	.nav{
+		height: 50px;
+	}
+	.menu{
+	display: none;
+	}
+	.layout{
+		float: left;
+		margin-bottom: 5px;
+	}
+	.tb1{
+	margin: 100px;
+	}
+	.myabout{
+ 		height: 600px;
+	}
+	.head3{
+		margin-top: 0;
+	}
+	.mytemp {
+	    margin-bottom: 0px;
+	    height: 150px;
+	}
+	.education {
+   		 height: 500px;
+	}
+	.pricing {
+	    background-color: #cbe6ea;
+	    margin-top: 967px;
+	    height: 1020px;
+	}
+ 	.head4{
+ 		margin-top: 5px;
+ 	}
+ 	.tb2{
+ 		display: none;
+ 	}
+}
+ 
